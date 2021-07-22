@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Page</title>
-    <style>
-        body{
-    background-color: lightgray;
-}
-    </style>
-</head>
-<body>
 
-    <form action="signedup.html" target="_blank" 
-    method="POST" name="myForm" autocomplete="off">
-    <fieldset>
-        <legend>User creation - Enter details</legend>
-        <br>
-        <!-- First Name -->
-        <Label for="fname">First Name</Label>
-        <input type="text" name="fname" id="fname" placeholder="John" autofocus tabindex='1' required>
-        &nbsp; &nbsp;
-        <!-- Last Name -->
-        <Label for="lname">Last Name</Label>
-        <input type="text" name="lname" id="lname" placeholder="Smith" tabindex='2' required><br><br>
-        <!-- Date of Birth -->
-        <label for="dob">Date of Birth</label>
-        <input type="date" name="dob" tabindex='3'>
-        <!-- Country of Birth -->
-        &nbsp; &nbsp; &nbsp;
-        <label for="country">Country of Birth</label>
-        <select id="country" name="country" required tabindex='4'>
+    <link type="text/css" href="home.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="banner"><img src="images/banner2nd.jpg" alt="Image couldnt load"></div>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="about.html">About</a>
+        <a href="registration.html">Register</a>
+    </div>
+    <br><br>
+
+    <div id="formContent">
+
+
+        <form action="signedup.html" target="_blank" method="POST" name="myForm" autocomplete="off">
+            <fieldset class="top">
+                <legend>User creation - Enter details</legend>
+                <br>
+                <!-- First Name -->
+                <Label for="fname">First Name</Label>
+                <input type="text" name="fname" id="fname" placeholder="John" autofocus tabindex='1' required> &nbsp; &nbsp;
+                <!-- Last Name -->
+                <Label for="lname">Last Name</Label>
+                <input type="text" name="lname" id="lname" placeholder="Smith" tabindex='2' required><br><br>
+                <!-- Date of Birth -->
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" tabindex='3'>
+                <!-- Country of Birth -->
+                &nbsp; &nbsp; &nbsp;
+                <label for="country">Country of Birth</label>
+                <select id="country" name="country" required tabindex='4'>
             <option value="Afganistan">Afghanistan</option>
             <option value="Albania">Albania</option>
             <option value="Algeria">Algeria</option>
@@ -278,48 +287,45 @@
             <option value="Zaire">Zaire</option>
             <option value="Zambia">Zambia</option>
             <option value="Zimbabwe">Zimbabwe</option>
-         </select>
-         &nbsp; &nbsp;
-         <!-- Email Address -->
-         <label for="email">Enter email</label>
-         <input type="email" name="email" id="email" tabindex="5" placeholder="john.smith@outlook.com" required><br><br>
-         <label for="pass">Password</label>
-         <input type="password" name="pass" id="pass"><br><br>
-         <label for="pass">Retype Password</label>
-         <input type="password" name="pass" id="pass" ><br><br>
-    </fieldset><br><br>
+         </select> &nbsp; &nbsp;
+                <!-- Email Address -->
+                <label for="email">Enter email</label>
+                <input type="email" name="email" id="email" tabindex="5" placeholder="john.smith@outlook.com" required><br><br>
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass"><br><br>
+                <label for="pass">Retype Password</label>
+                <input type="password" name="pass" id="pass"><br><br>
+            </fieldset><br><br>
+            <fieldset class="bottom">
+                <legend>Additional Info</legend>
+                <br>
+                <!--  Biography-->
+                <textarea rows="15" cols="40">
+        </textarea>
+                <Br><br><br>
+                <!-- Choose profile picture -->
+                <label for="fileUpload">Choose a profile picture</label>
+                <input type="file" name="myFile" id="fileUpload"><br><br>
+                <label type="skills">Where did you hear about us?</label><br>
+                <input type="checkbox" name="Friends" value="Friends">
+                <label>Friends</label>
+                <input type="checkbox" name="Magazine" value="Magazine">
+                <label>Magazine</label>
+                <input type="checkbox" name="Others" value="Others">
+                <label>Others</label>
+            </fieldset>
+            <br><br>
+            <!-- Submit/Reset Button -->
+            <input type="submit" name="submit" value="Submit"> &nbsp;&nbsp;
+            <input type="reset" name="reset">&nbsp;&nbsp;
+            <input type="button" onclick="history.back();" value="Back">
+            <br><br>
+        </form>
 
-    <fieldset>
-        <legend>Additional Info</legend>
-        <br>
-
-         <!--  Biography-->
-        <textarea rows="15" cols="40">
-        </textarea><Br><br><br>
-        <!-- Choose profile picture -->
-        <label for="fileUpload">Choose a profile picture</label>
-        <input type="file" name="myFile" id="fileUpload"><br><br>
 
 
-        <label type="skills">Where did you hear about us?</label><br>
-        <input type="checkbox" name="Friends" value="Friends">
-        <label>Friends</label>
-        <input type="checkbox" name="Magazine" value="Magazine">
-        <label>Magazine</label>
-        <input type="checkbox" name="Others" value="Others">
-        <label>Others</label>
+    </div>
 
-
-
-    </fieldset>
-
-
-    <br><br>
-   
-    <!-- Submit/Reset Button -->
-    <input type="submit" name="submit">
-    &nbsp;&nbsp;
-    <input type="reset" name="reset">
-    </form>
 </body>
+
 </html>

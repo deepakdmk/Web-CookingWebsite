@@ -1,350 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes</title>
-
-    <style>
-body{
-    background-color: lightgray;
-}
-
-        .banner{background-color: #0e0e10;
-            text-align: center; }
-
-        /* Navigation bar style */
-        .navbar{
-            background-color:#3BD9A4;
-            border:2px;
-            border-radius: 0px 0px 25px 25px;
-            font-size: 30px; 
-            text-align: center;}
-
-        .navbar a:hover{
-        background-color:#2FBC8D ;
-        text-decoration:white;
-        }
-
-        .navbar a:link{
-        color:black;
-        text-decoration:none;
-         }
-
-    
-        .navbar a:visited{
-        color:black;
-        text-decoration:none;
-         }
-         /* Navigation bar style */
-
-
-         /* Recipe list*/
-         .recipelist{
-             font-family: 'Courier New', Courier, monospace;
-             text-align: center;
-             font-size: 24px; }
-
-             
-        .recipelist a:link{
-        color:black;
-        text-decoration:none;
-         }
-
-        .recipelist a:hover{
-            text-decoration:none;
-            color:#2FBC8D;
-        }
-
-        .recipelist a:visited{
-            color:black;
-        text-decoration:none;
-         }
-
-         .western{
-             align-content: center;
-         }
-         .bottombar{
-             background-color: #3BD9A4;
-             text-align: center;
-         }
-
-      
-
-</style>
+    <link type="text/css" href="home.css" rel="stylesheet">
 </head>
+
 <body>
 
- <!-- Navigation Bar -->
-<div class="banner"><img src="images/banner2nd.jpg" alt="Image couldnt load" ></div>
-<div class="navbar">
-    
-    <a href="home.html">Home</a> 
-
-    <a href="recipes.html">Recipes</a> 
-    
-    <a href="about.html">About Us</a> 
-    
-    <a href="registration.html">Register</a> 
-</div>
-
-<br>
-<div class="recipelist">
-
-    <a href="#Western"><strong>Western</strong></a> 
-
-    <a href="#asian"><strong>Asian</strong></a> 
-    
-    <a href="#italian"><strong>Italian</strong></a> 
-</div>
-<hr>
-
-
-
-<div id="Western">
-    <h1  align="middle"><ins>Western - Chicken Burger</ins></h1>
-
-    <p  align="middle"><img src="images/burger.jpg" width=auto height=250px></p>
-
-
-    <h2><ins>Ingredients</ins></h2>
-
-    <p>
-    To make a chicken burger we will need many ingredients.
-    
-    <ul type="disc">
-        <li><strong>brioche burger buns</strong> 4, halved</li>
+    <!-- Navigation Bar -->
+    <div class="banner"><img src="images/banner2nd.jpg" alt="Image couldnt load"></div>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="about.html">About</a>
+        <a href="registration.html">Register</a>
+    </div>
+    <br>
+    <div class="recipelist">
+        <div><a href="#Western"><strong>Western</strong></a></div>
+        <div> <a href="#asian"><strong>Asian</strong></a></div>
+        <div> <a href="#italian"><strong>Italian</strong></a></div>
+    </div>
+    <div class="content">
+        <a id="Western">
+            <h1>Western - Chicken Burger</h1>
+        </a>
+        <img src="images/burger.jpg" width=auto height=250px>
+        <h2 class="ingredients"><ins>Ingredients</ins></h2>
+        <ul type="disc">
+            <li><strong>brioche burger buns</strong> 4, halved</li>
             <li><strong>unsalted butter</strong> 2 tbsp, melted</li>
             <li><strong>minced beef (15% fat)</strong> 600g</li>
             <li><strong>cheese slices</strong> 4</li>
             <li><strong>pickles</strong> (we like Dino’s Famous Chilli Stacker Pickles) 10 slices, cut into pieces</li>
-    </ul>
-
-    </p>
-
-    <h2><ins>Preparation</ins></h2>
-
-    <p><img src="images/prep.jpg" align="right"    width="auto" height="auto">
-        A mince with a good amount of fat will make all the difference to the flavour of the patty. 
-        Look out for steak mince with a fat content of 15%. And if you have a good butcher near, ask for 
-        aged beef mince that has been minced with added fat. 
-        It will give the deepest, beefiest flavour, while staying tender 
-        and juicy.<cite>Getting a non-stick frying pan smoking hot and squashing the 
-            burgers into the pan will allow the patties to form charred, crispy edges – 
-            this is the fats and proteins on the surface of the meat caramelising.</cite>  It’s best to 
-        only <ins>cook two at a time (unless barbecuing)</ins> because overcrowding the pan will lower its 
-        temperature, hindering this caramelisation process.  Putting a lid on the pan once the cheese has been 
-        added is important. The steam created under the lid will melt the cheese quickly so the burger doesn’t overcook; 
-        and it will also help release the <sup>delicious crusty bits off the bottom of the pan </sup>so they join the patties when 
-        they are scooped into the buns.   The sauce may have a fairly long list of ingredients but it’s well worth it. 
-        The sweet, smoky and sour combo complements and cuts through the richer flavours of the brioche, cheese and patty. 
-        Using brioche buns, as opposed to normal burger buns, will give a sweet edge and a well-structured bun that can hold 
-        the burger. Toasting the buns on the cut sides adds flavour as well as stability, preventing it from collapsing when all 
-        the burger juices soak in.    </p>
+        </ul>
+        <h2><ins>Preparation</ins></h2>
+        <p><img src="images/prep.jpg" align="right" width="auto" height="auto"> A mince with a good amount of fat will make all the difference to the flavour of the patty. Look out for steak mince with a fat content of 15%. And if you have a good butcher
+            near, ask for aged beef mince that has been minced with added fat. It will give the deepest, beefiest flavour, while staying tender and juicy.<cite>Getting a non-stick frying pan smoking hot and squashing the 
+                        burgers into the pan will allow the patties to form charred, crispy edges – 
+                        this is the fats and proteins on the surface of the meat caramelising.</cite> It’s best to only <ins>cook two at a time (unless barbecuing)</ins> because overcrowding the pan will lower its temperature, hindering this caramelisation
+            process. Putting a lid on the pan once the cheese has been added is important. The steam created under the lid will melt the cheese quickly so the burger doesn’t overcook; and it will also help release the <sup>delicious crusty bits off the bottom of the pan </sup>so
+            they join the patties when they are scooped into the buns. The sauce may have a fairly long list of ingredients but it’s well worth it. The sweet, smoky and sour combo complements and cuts through the richer flavours of the brioche, cheese
+            and patty. Using brioche buns, as opposed to normal burger buns, will give a sweet edge and a well-structured bun that can hold the burger. Toasting the buns on the cut sides adds flavour as well as stability, preventing it from collapsing
+            when all the burger juices soak in. </p>
         <br>
-        <h2><ins>Cooking</ins></h2>
-
-    <p>
-    <dl>
-        <dt><strong>First Step</strong></dt>
-        <dd>To make the sauce, combine all the ingredients in a bowl with a little seasoning.</dd>
-        <dt><strong>Second Step</strong></dt>
-        <dd>Heat a large non-stick frying pan over a medium heat and brush the cut sides of 
-            the buns liberally with melted butter. Toast in the hot pan until really golden 
-            and toasted.</dd>
-        <dt><strong>Third Step</strong></dt>
-        <dd>Turn the heat to high. When the pan is really hot, season the m
-            ince and form into four balls, then push two into the frying pan
-            , squashing to flatten. Sprinkle over some salt again and cook for
-             2 minutesuntil really crisp, then flip, sprinkle over some salt and 
-             repeat. Lay a sheet of cheese onto each and cover with a lid for 30 
-             seconds until melted. Move onto a plate and repeat with the remaining patties and cheese slices. </dd>
-        <dt><strong>Fourth Step</strong></dt>
-        <dd>Spread some of the sauce onto the bases of the buns, then top with the cheese patties. 
-            Top with lots of pickles, then spread the tops liberally with the sauce and put on top to serve.</dd>
-    </dl>
-
-    <p align="center"><iframe  width="560" height="315" src="https://www.youtube.com/embed/0asPIGtVi8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>
-    </p>
-
-
-    <p style="text-align: center;font-size: 30px;color:#0b4230"><strong><a href="#Western">Back to the top</a></strong></p>
-</div>
-
-<hr>
-<div id="asian">
-        <h1 align="middle"><ins>Asian - Homemade Pho</ins></h1>
-
-        <p align="middle" ><img src="images/pho.jpg" width=auto height=250px></p>
-    
-
-        <h2><ins>Ingredients</ins></h2>
-
-        <p>
-        To make a chicken burger we will need many ingredients.
-        
-        <ul type="disc">
-            <li><strong>brioche burger buns</strong> 4, halved</li>
-                <li><strong>unsalted butter</strong> 2 tbsp, melted</li>
-                <li><strong>minced beef (15% fat)</strong> 600g</li>
-                <li><strong>cheese slices</strong> 4</li>
-                <li><strong>pickles</strong> (we like Dino’s Famous Chilli Stacker Pickles) 10 slices, cut into pieces</li>
-        </ul>
-    
-        </p>
-    
-        
-    <h2><ins>Preparation</ins></h2>
-    
-        <p>
-            A mince with a good amount of fat will make all the difference to the flavour of the patty. 
-            Look out for steak mince with a fat content of 15%. And if you have a good butcher near, ask for 
-            aged beef mince that has been minced with added fat. 
-            It will give the deepest, beefiest flavour, while staying tender 
-            and juicy.<cite>Getting a non-stick frying pan smoking hot and squashing the 
-                burgers into the pan will allow the patties to form charred, crispy edges – 
-                this is the fats and proteins on the surface of the meat caramelising.</cite>  It’s best to 
-            only cook two at a time (unless barbecuing) because overcrowding the pan will lower its 
-            temperature, hindering this caramelisation process.  Putting a lid on the pan once the cheese has been 
-            added is important. The steam created under the lid will melt the cheese quickly so the burger doesn’t overcook; 
-            and it will also help release the delicious crusty bits off the bottom of the pan so they join the patties when 
-            they are scooped into the buns.   The sauce may have a fairly long list of ingredients but it’s well worth it. 
-            The sweet, smoky and sour combo complements and cuts through the richer flavours of the brioche, cheese and patty. 
-            Using brioche buns, as opposed to normal burger buns, will give a sweet edge and a well-structured bun that can hold 
-            the burger. Toasting the buns on the cut sides adds flavour as well as stability, preventing it from collapsing when all 
-            the burger juices soak in.    </p>
-    
-            <h2><ins>Cooking</ins></h2>
-    
-        <p>
+        <h2 class="cooking"><ins>Cooking</ins></h2>
         <dl>
             <dt><strong>First Step</strong></dt>
             <dd>To make the sauce, combine all the ingredients in a bowl with a little seasoning.</dd>
             <dt><strong>Second Step</strong></dt>
-            <dd>Heat a large non-stick frying pan over a medium heat and brush the cut sides of 
-                the buns liberally with melted butter. Toast in the hot pan until really golden 
-                and toasted.</dd>
+            <dd>Heat a large non-stick frying pan over a medium heat and brush the cut sides of the buns liberally with melted butter. Toast in the hot pan until really golden and toasted.</dd>
             <dt><strong>Third Step</strong></dt>
-            <dd>Turn the heat to high. When the pan is really hot, season the m
-                ince and form into four balls, then push two into the frying pan
-                , squashing to flatten. Sprinkle over some salt again and cook for
-                 <mark>2minutes</mark> until really crisp, then flip, sprinkle over some salt and 
-                 repeat. Lay a sheet of cheese onto each and cover with a lid for 30 
-                 seconds until melted. Move onto a plate and repeat with the remaining patties and cheese slices. </dd>
+            <dd>Turn the heat to high. When the pan is really hot, season the m ince and form into four balls, then push two into the frying pan , squashing to flatten. Sprinkle over some salt again and cook for 2 minutesuntil really crisp, then flip, sprinkle
+                over some salt and repeat. Lay a sheet of cheese onto each and cover with a lid for 30 seconds until melted. Move onto a plate and repeat with the remaining patties and cheese slices. </dd>
             <dt><strong>Fourth Step</strong></dt>
-            <dd>Spread some of the sauce onto the bases of the buns, then top with the cheese patties. 
-                Top with lots of pickles, then spread the tops liberally with the sauce and put on top to serve.</dd>
+            <dd>Spread some of the sauce onto the bases of the buns, then top with the cheese patties. Top with lots of pickles, then spread the tops liberally with the sauce and put on top to serve.</dd>
         </dl>
-    
-        </p>
-
-        <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/3ArSvRALhHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-        <p style="text-align: center;font-size: 30px;color:#0b4230"><strong><a href="#Western">Back to the top</a></strong></p>
-
+        <br> <br>
+        <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/0asPIGtVi8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <hr>
+        <a id="asian">
+            <h1>Asian - Homemade Pho</h1>
+        </a>
+        <img src="images/pho.jpg" width=auto height=250px>
+        <h2 class="ingredients"><ins>Ingredients</ins></h2>
+        <ul type="disc">
+            <li><strong>brioche burger buns</strong> 4, halved</li>
+            <li><strong>unsalted butter</strong> 2 tbsp, melted</li>
+            <li><strong>minced beef (15% fat)</strong> 600g</li>
+            <li><strong>cheese slices</strong> 4</li>
+            <li><strong>pickles</strong> (we like Dino’s Famous Chilli Stacker Pickles) 10 slices, cut into pieces</li>
+        </ul>
+        <h2><ins>Preparation</ins></h2>
+        <p>
+            A mince with a good amount of fat will make all the difference to the flavour of the patty. Look out for steak mince with a fat content of 15%. And if you have a good butcher near, ask for aged beef mince that has been minced with added fat. It will give
+            the deepest, beefiest flavour, while staying tender and juicy.<cite>Getting a non-stick frying pan smoking hot and squashing the 
+                burgers into the pan will allow the patties to form charred, crispy edges – 
+                this is the fats and proteins on the surface of the meat caramelising.</cite> It’s best to only cook two at a time (unless barbecuing) because overcrowding the pan will lower its temperature, hindering this caramelisation process. Putting
+            a lid on the pan once the cheese has been added is important. The steam created under the lid will melt the cheese quickly so the burger doesn’t overcook; and it will also help release the delicious crusty bits off the bottom of the pan so
+            they join the patties when they are scooped into the buns. The sauce may have a fairly long list of ingredients but it’s well worth it. The sweet, smoky and sour combo complements and cuts through the richer flavours of the brioche, cheese
+            and patty. Using brioche buns, as opposed to normal burger buns, will give a sweet edge and a well-structured bun that can hold the burger. Toasting the buns on the cut sides adds flavour as well as stability, preventing it from collapsing
+            when all the burger juices soak in. </p>
+        <h2 class="cooking"><ins>Cooking</ins></h2>
+        <dl>
+            <dt><strong>First Step</strong></dt>
+            <dd>To make the sauce, combine all the ingredients in a bowl with a little seasoning.</dd>
+            <dt><strong>Second Step</strong></dt>
+            <dd>Heat a large non-stick frying pan over a medium heat and brush the cut sides of the buns liberally with melted butter. Toast in the hot pan until really golden and toasted.</dd>
+            <dt><strong>Third Step</strong></dt>
+            <dd>Turn the heat to high. When the pan is really hot, season the m ince and form into four balls, then push two into the frying pan , squashing to flatten. Sprinkle over some salt again and cook for
+                <mark>2minutes</mark> until really crisp, then flip, sprinkle over some salt and repeat. Lay a sheet of cheese onto each and cover with a lid for 30 seconds until melted. Move onto a plate and repeat with the remaining patties and cheese
+                slices. </dd>
+            <dt><strong>Fourth Step</strong></dt>
+            <dd>Spread some of the sauce onto the bases of the buns, then top with the cheese patties. Top with lots of pickles, then spread the tops liberally with the sauce and put on top to serve.</dd>
+        </dl>
+        <br> <br>
+        <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/3ArSvRALhHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <hr>
+        <a id="italian">
+            <h1 class="recipetitles">Italian - Spaghetti Aglio e Olio</h1>
+        </a>
+        <img src="images/olio.jpg" width=auto height=250px>
+        <h2 class="ingredients"><ins>Ingredients</ins></h2>
+        <ul type="disc">
+            <li><strong>brioche burger buns</strong> 4, halved</li>
+            <li><strong>unsalted butter</strong> 2 tbsp, melted</li>
+            <li><strong>minced beef (15% fat)</strong> 600g</li>
+            <li><strong>cheese slices</strong> 4</li>
+            <li><strong>pickles</strong> (we like Dino’s Famous Chilli Stacker Pickles) 10 slices, cut into pieces</li>
+        </ul>
+        <h2 class="preparation"><ins>Preparation</ins></h2>
+        <p><img src="images/boiling.jpg" align="left" width="175px" height="150px"> A mince with a good amount of fat will make all the difference to the flavour of the patty. Look out for steak mince with a fat content of 15%. And if you have a good butcher
+            near, ask for aged beef mince that has been minced with added fat. It will give the deepest, beefiest flavour, while staying tender and juicy.<cite>Getting a non-stick frying pan smoking hot and squashing the 
+                burgers into the pan will allow the patties to form charred, crispy edges – 
+                this is the fats and proteins on the surface of the meat caramelising.</cite> It’s best to only cook two at a time (unless barbecuing) because overcrowding the pan will lower its temperature, hindering this caramelisation process. Putting
+            a lid on the pan once the cheese has been added is important. The steam created under the lid will melt the cheese quickly so the burger doesn’t overcook; and it will also help<ins> release the delicious crusty bits off the bottom of</ins>            the pan so they join the patties when they are scooped into the buns. The sauce may have a fairly long list of ingredients but it’s well worth it. The sweet, smoky and sour combo complements and cuts through the richer flavours of the brioche,
+            cheese and patty. Using brioche buns, as opposed to normal burger buns, will give a sweet edge and a well-structured bun that can hold the burger. Toasting the buns on the cut sides adds<sub> flavour</sub> as well as stability, preventing
+            it from collapsing when all the burger juices soak in. </p>
+        <h2 class="cooking"><ins>Cooking</ins></h2>
+        <dl>
+            <dt><strong>First Step</strong></dt>
+            <dd>To make the sauce, combine all the ingredients in a bowl with a little seasoning.</dd>
+            <dt><strong>Second Step</strong></dt>
+            <dd>Heat a large non-stick frying pan over a medium heat and brush the cut sides of the buns liberally with melted butter. Toast in the hot pan until really golden and toasted.</dd>
+            <dt><strong>Third Step</strong></dt>
+            <dd>Turn the heat to high. When the pan is really hot, season the m ince and form into four balls, then push two into the frying pan , squashing to flatten. Sprinkle over some salt again and cook for 2 minutes until really crisp, then flip, sprinkle
+                over some salt and repeat. Lay a sheet of cheese onto each and cover with a lid for 30 seconds until melted. Move onto a plate and repeat with the remaining patties and cheese slices. </dd>
+            <dt><strong>Fourth Step</strong></dt>
+            <dd>Spread some of the sauce onto the bases of the buns, then top with the cheese patties. Top with lots of pickles, then spread the tops liberally with the sauce and put on top to serve.</dd>
+        </dl><br> <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UmTqq_o6FSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-
-
-
-
-<hr>
-<div id="italian">
-    <h1 align="middle"><ins>Italian - Spaghetti Aglio e Olio</ins></h1>
-
-   <p align="middle"> <img src="images/olio.jpg"  width=auto height=250px></p>
-    
-
-    <h2><ins>Ingredients</ins></h2>
-    <p>
-        To make a chicken burger we will need many ingredients.
-        
-        <ul type="disc">
-            <li><strong>brioche burger buns</strong> 4, halved</li>
-                <li><strong>unsalted butter</strong> 2 tbsp, melted</li>
-                <li><strong>minced beef (15% fat)</strong> 600g</li>
-                <li><strong>cheese slices</strong> 4</li>
-                <li><strong>pickles</strong> (we like Dino’s Famous Chilli Stacker Pickles) 10 slices, cut into pieces</li>
-        </ul>
-    
-        </p>
-    
-        
-    <h2><ins>Preparation</ins></h2>
-    
-        <p><img src="images/boiling.jpg" align="right"    width="300px" height="250px">
-            A mince with a good amount of fat will make all the difference to the flavour of the patty. 
-            Look out for steak mince with a fat content of 15%. And if you have a good butcher near, ask for 
-            aged beef mince that has been minced with added fat. 
-            It will give the deepest, beefiest flavour, while staying tender 
-            and juicy.<cite>Getting a non-stick frying pan smoking hot and squashing the 
-                burgers into the pan will allow the patties to form charred, crispy edges – 
-                this is the fats and proteins on the surface of the meat caramelising.</cite>  It’s best to 
-            only cook two at a time (unless barbecuing) because overcrowding the pan will lower its 
-            temperature, hindering this caramelisation process.  Putting a lid on the pan once the cheese has been 
-            added is important. The steam created under the lid will melt the cheese quickly so the burger doesn’t overcook; 
-            and it will also help<ins> release the delicious crusty bits off the bottom of</ins> the pan so they join the patties when 
-            they are scooped into the buns.   The sauce may have a fairly long list of ingredients but it’s well worth it. 
-            The sweet, smoky and sour combo complements and cuts through the richer flavours of the brioche, cheese and patty. 
-            Using brioche buns, as opposed to normal burger buns, will give a sweet edge and a well-structured bun that can hold 
-            the burger. Toasting the buns on the cut sides adds<sub> flavour</sub> as well as stability, preventing it from collapsing when all 
-            the burger juices soak in.    </p>
-    
-        <h2><ins>Cooking</ins></h2>
-    
-        <p>
-        <dl>
-            <dt><strong>First Step</strong></dt>
-            <dd>To make the sauce, combine all the ingredients in a bowl with a little seasoning.</dd>
-            <dt><strong>Second Step</strong></dt>
-            <dd>Heat a large non-stick frying pan over a medium heat and brush the cut sides of 
-                the buns liberally with melted butter. Toast in the hot pan until really golden 
-                and toasted.</dd>
-            <dt><strong>Third Step</strong></dt>
-            <dd>Turn the heat to high. When the pan is really hot, season the m
-                ince and form into four balls, then push two into the frying pan
-                , squashing to flatten. Sprinkle over some salt again and cook for
-                 2 minutes until really crisp, then flip, sprinkle over some salt and 
-                 repeat. Lay a sheet of cheese onto each and cover with a lid for 30 
-                 seconds until melted. Move onto a plate and repeat with the remaining patties and cheese slices. </dd>
-            <dt><strong>Fourth Step</strong></dt>
-            <dd>Spread some of the sauce onto the bases of the buns, then top with the cheese patties. 
-                Top with lots of pickles, then spread the tops liberally with the sauce and put on top to serve.</dd>
-        </dl>
-    
-        </p>
-    
-        <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/UmTqq_o6FSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-        <p style="text-align: center;font-size: 30px;color:#0b4230"><strong><a href="#Western">Back to the top</a></strong></p>
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-<div class="bottombar"><hr>
-        <pre>Copyright © 2021 All rights reserved Deep's CookBook Pte. Ltd.</pre><hr></div>
+    <div class="bottombar">
+        <hr>
+        <pre>Copyright © 2021 All rights reserved Deep's CookBook Pte. Ltd.</pre>
+        <hr>
+    </div>
 </body>
+
 </html>

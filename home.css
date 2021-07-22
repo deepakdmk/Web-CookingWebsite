@@ -1,0 +1,204 @@
+/* Basic homepage with navbar */
+
+html:root {
+    background-color: gainsboro;
+}
+
+.banner {
+    background-color: #0e0e10;
+    width: auto;
+    text-align: center;
+    border: 5px;
+    border-style: solid solid none solid;
+    border-color: #2FBC8D #2FBC8D black #2FBC8D;
+}
+
+marquee {
+    background-color: yellow;
+    color: black;
+    direction: left;
+}
+
+.navbar {
+    background-color: #3BD9A4;
+    border: 5px;
+    border-style: none double double double;
+    padding: 2px;
+    border-color: #2FBC8D #2FBC8D black #2FBC8D;
+    font-size: 30px;
+    text-align: center;
+    word-spacing: 15px;
+}
+
+.navbar a:hover {
+    background-color: #2FBC8D;
+    text-decoration: white;
+    padding: 2px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.navbar a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.bottombar {
+    background-color: #3BD9A4;
+    text-align: center;
+    color: black;
+}
+
+
+/* Basic layout ends here, use above in all pages  */
+
+
+/* HomePage classes here onwards */
+
+.homepage {
+    word-spacing: 7px;
+    margin: 20px;
+    color: black;
+}
+
+
+/* RecipePage here onwards */
+
+.recipelist {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    padding-top: 15px;
+    width: 10%;
+    text-align: end;
+    position: fixed;
+}
+
+.recipelist a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.recipelist a:hover {
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: #2FBC8D;
+}
+
+.recipelist a:visited {
+    text-decoration: none;
+}
+
+
+/* Recipelist navbar ends here */
+
+.content {
+    border: 2px;
+    border-style: solid solid solid solid;
+    margin-left: 15%;
+    padding: 15px;
+    text-align: center;
+}
+
+.content ul {
+    text-align: left;
+}
+
+.content dl {
+    text-align: left;
+    margin-left: 20px
+}
+
+.content>p {
+    text-align: justify;
+    padding: 15px;
+}
+
+p>img {
+    margin: 0px 15px;
+}
+
+.ingredients {
+    text-align: left;
+    padding-left: 20px
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.cooking {
+    text-align: left;
+    padding-left: 20px
+}
+
+
+/* forms */
+
+.top {
+    background-color: #2FBC8D;
+}
+
+.top legend {
+    background-color: #20775a;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.bottom {
+    background-color: #2FBC8D;
+}
+
+.bottom legend {
+    background-color: #20775a;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+input:enabled {
+    background-color: gainsboro;
+}
+
+input:focus {
+    background-color: white;
+}
+
+div#formContent {
+    background-color: darkgrey;
+    border: 2px;
+    border-style: solid solid solid solid;
+    margin-left: 15%;
+    padding: 15px;
+    position: relative;
+}
+
+#formButtons {
+    position: sticky;
+    left: 0px;
+    top: 0px;
+}
+
+
+/* about page */
+
+.about {
+    margin: 50px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+#address {
+    height: 10px;
+    transition: height 3s;
+    transition-timing-function: linear;
+    overflow: hidden;
+}
+
+#address:hover {
+    height: 650px;
+}
